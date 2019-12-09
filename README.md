@@ -12,7 +12,7 @@ We will be running everything in a virtual environment (no downloads necessary!)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/neurogenetics/GenoML_IPDGC/master?urlpath=lab?filepath=GenoML_IPDGC_Demo.ipynb) 
 
-**PLEASE NOTE: Use Chrome to run this!** 
+**PLEASE NOTE: Use Chrome to run this! The Binder environment might take several minutes to start up** 
 
 ## What is GenoML?
 GenoML is an automated Machine Learning (autoML) tool that optimizes basic machine learning pipelines for genomic data. In recent years, the demand for machine learning experts has outpaced the supply, despite the surge of people entering the field. To address this gap, there have been big strides in the development of user-friendly machine learning software that can be used by non-experts. 
