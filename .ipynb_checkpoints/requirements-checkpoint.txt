@@ -20,4 +20,3 @@ sklearn==0.0
 statsmodels==0.10.1
 tables==3.6.1
 xgboost==0.90
-jupyterlab==6.0
