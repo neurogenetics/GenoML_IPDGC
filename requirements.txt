@@ -19,4 +19,5 @@ six==1.13.0
 sklearn==0.0
 statsmodels==0.10.1
 tables==3.6.1
+tornado==6.0.3
 xgboost==0.90

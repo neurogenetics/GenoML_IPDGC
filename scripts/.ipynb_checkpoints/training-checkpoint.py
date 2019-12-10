@@ -50,16 +50,16 @@ from xgboost import XGBClassifier
 
 ### Algorithm list
 algorithms = [
-	LogisticRegression(),
-	RandomForestClassifier(),
+	LogisticRegression(solver='lbfgs'),
+	RandomForestClassifier(n_estimators=10),
 	AdaBoostClassifier(),
 	GradientBoostingClassifier(),
 	SGDClassifier(loss='modified_huber'),
-	SVC(probability=True),
+	SVC(probability=True, gamma="auto"),
 	#ComplementNB(),
 	MLPClassifier(),
 	KNeighborsClassifier(),
-	LinearDiscriminantAnalysis(),
+	#LinearDiscriminantAnalysis(), #TODO: Will add back in when VIF functionality is added 
 	QuadraticDiscriminantAnalysis(),
 	BaggingClassifier(),
 	XGBClassifier()
@@ -98,6 +98,7 @@ for algo in algorithms:
 	name = algo.__class__.__name__
 
 	print("#"*30)
+
 	print(name)
 
 	test_predictions = algo.predict_proba(X_test)
@@ -130,7 +131,9 @@ for algo in algorithms:
 	
 	end_time = time.time()
 	elapsed_time = (end_time - start_time)
-	print("Runtime in seconds: {:.4}".format(elapsed_time)) 
+	print("Runtime in seconds: {:.4}".format(elapsed_time))
+	print("")
+
 
 	log_entry = pd.DataFrame([[name, rocauc*100, acc*100, balacc*100, ll, sensitivity, specificity, PPV, NPV, elapsed_time]], columns=log_cols)
 	log_table = log_table.append(log_entry)
