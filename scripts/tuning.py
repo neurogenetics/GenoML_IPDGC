@@ -1,3 +1,4 @@
+from time import time
 parser = argparse.ArgumentParser(description='Arguments for training a discrete model')    
 parser.add_argument('--prefix', type=str, default='GenoML_data', help='Prefix for your training data build.')
 parser.add_argument('--max-tune', type=int, default=50, help='Max number of tuning iterations: (integer likely greater than 10). This governs the length of tuning process, run speed and the maximum number of possible combinations of tuning parameters [default: 50].')
