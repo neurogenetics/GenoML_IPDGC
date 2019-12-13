@@ -4,8 +4,8 @@
 -  **Project:** GenoML Demo for IPDGC London 2019 
 - **PI:** Mike Nalls, PhD and Andrew Singleton, PhD
 - **Collaborators:** Full list of collaborators [here](https://genoml.github.io/docs/about.html) 
-- **Date Last Updated:** 12.09.2019
-	- Last Update: Updating train and tune, added functioning Binder environment
+- **Date Last Updated:** 12.13.2019
+	- Last Update: Fixed tune + added seed to limit randomness 
 
 ## Getting Started
 We will be running everything in a virtual environment (no downloads necessary!)
