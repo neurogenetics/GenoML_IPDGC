@@ -4,10 +4,10 @@
 
 # GenoML Workshop for IPDGC (in Notebook Format)
 
-- **Author(s):** Hampton Leonard, Mary Makarious, Faraz Faghri, David Saffo, and Mike Nalls
+- **Authors:** Hampton Leonard, Mary Makarious, Faraz Faghri, David Saffo, and Mike Nalls
 -  **Project:** GenoML Demo for IPDGC London 2019 
-- **PI:** Mike Nalls, PhD and Andrew Singleton, PhD
-- **Collaborators:** Full list of collaborators [here](https://genoml.github.io/docs/about.html) 
+- **PIs:** Mike Nalls, PhD and Andrew Singleton, PhD
+- **Collaborators:** Full list of collaborators can be found [here](https://genoml.github.io/docs/about.html) 
 - **Date Last Updated:** 12.13.2019
 	- Last Update: Fixed tune + added seed to limit randomness 
 
