@@ -18,7 +18,7 @@ We will be running everything in a virtual environment (no downloads necessary!)
 
 **PLEASE NOTE: Use Chrome to run this! The Binder environment might take several minutes to start up** 
 
-#### Link to Google Slides: [COMING SOON!]
+#### Link to Google Slides: [here](https://docs.google.com/presentation/d/172bgbFxb7s47h_5ngmBR8LMDAWNavV5EAXl4e3T8JBI/edit?usp=sharing)
 
 ## What is GenoML?
 GenoML is an automated Machine Learning (autoML) tool that optimizes basic machine learning pipelines for genomic data. In recent years, the demand for machine learning experts has outpaced the supply, despite the surge of people entering the field. To address this gap, there have been big strides in the development of user-friendly machine learning software that can be used by non-experts. 
