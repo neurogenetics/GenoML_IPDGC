@@ -2,7 +2,7 @@
   <img width="400" height="400" src="https://github.com/neurogenetics/GenoML_IPDGC/blob/master/logo.png">
 </p>
 
-# GenoML Notebooks Workshop for IPDGC 
+# GenoML Workshop for IPDGC (in Notebook Format)
 
 - **Author(s):** Hampton Leonard, Mary Makarious, Faraz Faghri, David Saffo, and Mike Nalls
 -  **Project:** GenoML Demo for IPDGC London 2019 
